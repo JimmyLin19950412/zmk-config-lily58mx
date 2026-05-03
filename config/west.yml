@@ -1,20 +1,14 @@
 manifest:
   defaults:
-    #revision: v0.3 #default
-    revision: v0.3.0 #nice-view-gem
+    revision: v0.3 #default
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: m165437 #nice-view-gem display
-      url-base: https://github.com/M165437 #nice-view-gem display
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: nice-view-gem #nice-view-gem display
-      remote: m165437 #nice-view-gem display
-      revision: main #nice-view-gem display
   self:
     path: config
