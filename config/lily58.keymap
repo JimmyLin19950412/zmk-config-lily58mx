@@ -40,7 +40,7 @@
         Keyboard_Shortcuts: Keyboard_Shortcuts {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp E &kp N &kp DOT &kp W &kp I &kp K &kp I &kp P &kp E &kp D &kp I &kp A &kp DOT &kp O &kp R &kp G &kp FSLH &kp W &kp I &kp K &kp I &kp FSLH &kp LS(T) &kp A &kp B &kp L &kp E &kp UNDER &kp O &kp F &kp UNDER &kp K &kp E &kp Y &kp B &kp O &kp A &kp R &kp D &kp UNDER &kp S &kp H &kp O &kp R &kp T &kp C &kp U &kp T &kp S>;
+            bindings = <&kp H &kp T &kp T &kp P &kp S &kp COLON &kp FSLH &kp FSLH &kp E &kp N &kp DOT &kp W &kp I &kp K &kp I &kp P &kp E &kp D &kp I &kp A &kp DOT &kp O &kp R &kp G &kp FSLH &kp W &kp I &kp K &kp I &kp FSLH &kp T &kp A &kp B &kp L &kp E &kp UNDER &kp O &kp F &kp UNDER &kp K &kp E &kp Y &kp B &kp O &kp A &kp R &kp D &kp UNDER &kp S &kp H &kp O &kp R &kp T &kp C &kp U &kp T &kp S>;
             label = "KEYBOARD_SHORTCUTS";
         };
     };
